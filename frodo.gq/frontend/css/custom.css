@@ -1,0 +1,137 @@
+
+/**
+ * Big Icon
+ */
+ .biggest-icon-fas
+ {
+	 font-size: 80px!important;
+ } 
+ 
+ .bg-day-n-night {background: linear-gradient(0deg, #6fe8fd, #eca300, #0080ca, #00013e);background-size: 800% 800%;-webkit-animation: animation 10s ease infinite;-moz-animation: animation 10s ease infinite;-o-animation: animation 10s ease infinite;animation: animation 10s ease infinite;}
+@-webkit-keyframes animation {
+    0%{background-position:0% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:0% 0%}
+}
+@-moz-keyframes animation {
+    0%{background-position:0% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:0% 0%}
+}
+@-o-keyframes animation {
+    0%{background-position:0% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:0% 0%}
+}
+@keyframes animation {
+    0%{background-position:0% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:0% 0%}
+}
+
+ .bg-opacity-stars {-webkit-animation: animationz 10s ease infinite;-moz-animation: animationz 10s ease infinite;-o-animation: animationz 10s ease infinite;animation: animationz 10s ease infinite;}
+@-webkit-keyframes animationz {
+    0%{opacity: 100%}
+    50%{opacity: 50%}
+    100%{opacity: 100%}
+}
+@-moz-keyframes animationz {
+    0%{opacity: 100%}
+    50%{opacity: 50%}
+    100%{opacity: 100%}
+}
+@-o-keyframes animationz {
+    0%{opacity: 100%}
+    50%{opacity: 50%}
+    100%{opacity: 100%}
+}
+@keyframes animationz {
+    0%{opacity: 100%}
+    50%{opacity: 50%}
+    100%{opacity: 100%}
+}
+
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
+}
+
+h1.ml8 {
+  font-weight: 900;
+  font-size: 4.5em;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+}
+
+.ml8 .letters-container {
+  position: absolute;
+  left: 27%;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+}
+
+.ml8 .letters {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  right: -0.12em;
+  top: -0.2em;
+}
+
+.ml8 .bang {
+  font-size: 1.4em;
+  top: auto;
+  left: -0.06em;
+}
+
+.ml8 .circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+
+.discord-widget .widgetHeader-2Hz_Ln,
+#discord-widget .widgetHeader-2Hz_Ln {
+    background-color: #00a2ff!important;
+}
+
+.ml8 .circle-white {
+  width: 3em;
+  height: 3em;
+  border: 2px dashed white;
+  border-radius: 2em;
+}
+
+.ml8 .circle-dark {
+  width: 2.2em;
+  height: 2.2em;
+  background-color: #4f7b86;
+  border-radius: 3em;
+  z-index: 1;
+}
+
+.ml8 .circle-dark-dashed {
+  border-radius: 2.4em;
+  background-color: transparent;
+  border: 2px dashed #4f7b86;
+  width: 2.3em;
+  height: 2.3em;
+}

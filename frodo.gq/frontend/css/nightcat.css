@@ -1,0 +1,140 @@
+:root {
+  --bg: #00b5ff00;
+  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #d6d6d6;
+  --orange: #ffffff;
+  --cyan: #ffffff;
+-webkit-animation: animationx 10s ease infinite;
+-moz-animation: animationx 10s ease infinite;
+-o-animation: animationx 10s ease infinite;
+animation: animationx 10s ease infinite;
+}
+
+@-webkit-keyframes animationx {
+    0%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ffffff;
+    }
+    50%{    --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ff5c5c;
+    }
+    100%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ffffff;
+    }
+}
+@-moz-keyframes animationx {
+    0%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ffffff;
+    }
+    50%{    --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ff5c5c;
+    }
+    100%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ffffff;
+    }
+}
+@-o-keyframes animationx {
+    0%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ffffff;
+    }
+    50%{    --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ff5c5c;
+    }
+    100%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ffffff;
+  --orange: #ffffff;
+  --cyan: #ffffff;
+    }
+}
+@keyframes animationx {
+    0%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #36fb3c;
+  --orange: #ffffff;
+  --cyan: #36fb3c;
+    }
+    50%{    --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #fffa5c;
+  --orange: #ffffff;
+  --cyan: #fffa5c;
+    }
+    100%{  --green: #ffffff;
+  --pink: #ffffff;
+  --blue: #ff5c5c;
+  --orange: #ffffff;
+  --cyan: #ff5c5c;
+    }
+}
+
+}
+.container svg {
+  height: 50%;
+  width: 50%;
+  overflow: visible;
+}
+
+#bongo-catn {
+  fill: var(--bg);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4;
+}
+#bongo-catn .laptop-cover,
+#bongo-catn .headphone .band {
+  fill: none;
+}
+#bongo-catn .paw, #bongo-catn .head {
+  stroke: var(--orange);
+}
+#bongo-catn .laptop-keyboard {
+  stroke-width: 2;
+}
+#bongo-catn .terminal-code {
+  stroke-width: 5;
+}
+#bongo-catn .music .note,
+#bongo-catn .laptop-base,
+#bongo-catn .laptop-cover,
+#bongo-catn .paw .pads {
+  stroke: var(--pink);
+}
+#bongo-catn .table line,
+#bongo-catn .headphone .band,
+#bongo-catn .headphone .speaker path:nth-child(3) {
+  stroke: var(--green);
+}
+#bongo-catn .terminal-frame,
+#bongo-catn .laptop-keyboard,
+#bongo-catn .headphone .speaker path:nth-child(2) {
+  stroke: var(--blue);
+}
+#bongo-catn .terminal-code,
+#bongo-catn .headphone .speaker path:first-child {
+  stroke: var(--cyan);
+}

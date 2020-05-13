@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.frodo.gq	TRUE	/	FALSE	1999999999	__cfduid	d1378f2eb11ff341e2f8259e4502f92861589341323
+frodo.gq	TRUE	/	FALSE	1999999999	SameSite	Lax
+
